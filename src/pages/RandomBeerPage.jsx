@@ -27,7 +27,7 @@ function RandomBeersPage() {
     }
     else {
         return (
-            <div className="beer-details">
+            <div className="beer-details-container">
                 <img src={randomBeer.image_url} />
                 <h1>{randomBeer.name}</h1>
                 <h3>{randomBeer.tagline}</h3>
